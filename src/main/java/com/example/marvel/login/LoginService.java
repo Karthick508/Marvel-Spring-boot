@@ -1,5 +1,8 @@
 package com.example.marvel.login;
 
-public class LoginService {
+import java.util.List;
+
+public interface LoginService {
     
+    List<Login> getAllUsers();
 }
